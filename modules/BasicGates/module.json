@@ -1,0 +1,336 @@
+{
+  "module_name": "Basic Gates",
+  "safe_name": "BasicGates",
+  "author": "Benjamin Lamont",
+  "dependencies": [],
+  "gates": [
+    {
+      "name": "ANDGate",
+      "connections": [
+        {
+          "position": [
+            -40,
+            -12
+          ],
+          "name": "InputA",
+          "conn_type": 0
+        },
+        {
+          "position": [
+            -40,
+            12
+          ],
+          "name": "InputB",
+          "conn_type": 0
+        },
+        {
+          "position": [
+            40,
+            0
+          ],
+          "name": "Output",
+          "conn_type": 1
+        }
+      ],
+      "size": [
+        80,
+        60
+      ],
+      "image": "AND_cropped.gif",
+      "tooltip": {
+        "name": "AND Gate",
+        "description": "Returns ON if both inputs are ON.",
+        "image": "AND.gif"
+      },
+      "function_name": "and_gate"
+    },
+    {
+      "name": "ORGate",
+      "connections": [
+        {
+          "position": [
+            -40,
+            -12
+          ],
+          "name": "InputA",
+          "conn_type": 0
+        },
+        {
+          "position": [
+            -40,
+            12
+          ],
+          "name": "InputB",
+          "conn_type": 0
+        },
+        {
+          "position": [
+            40,
+            0
+          ],
+          "name": "Output",
+          "conn_type": 1
+        }
+      ],
+      "size": [
+        80,
+        60
+      ],
+      "image": "OR_cropped.gif",
+      "tooltip": {
+        "name": "OR Gate",
+        "description": "Returns ON if either input is ON.",
+        "image": "OR.gif"
+      },
+      "function_name": "or_gate"
+    },
+    {
+      "name": "NANDGate",
+      "connections": [
+        {
+          "position": [
+            -40,
+            -12
+          ],
+          "name": "InputA",
+          "conn_type": 0
+        },
+        {
+          "position": [
+            -40,
+            12
+          ],
+          "name": "InputB",
+          "conn_type": 0
+        },
+        {
+          "position": [
+            40,
+            0
+          ],
+          "name": "Output",
+          "conn_type": 1
+        }
+      ],
+      "size": [
+        80,
+        60
+      ],
+      "image": "NAND_cropped.gif",
+      "tooltip": {
+        "name": "NAND Gate",
+        "description": "Returns ON if either input is OFF",
+        "image": "NAND.gif"
+      },
+      "function_name": "nand_gate"
+    },
+    {
+      "name": "NORGate",
+      "connections": [
+        {
+          "position": [
+            -40,
+            -12
+          ],
+          "name": "InputA",
+          "conn_type": 0
+        },
+        {
+          "position": [
+            -40,
+            12
+          ],
+          "name": "InputB",
+          "conn_type": 0
+        },
+        {
+          "position": [
+            40,
+            0
+          ],
+          "name": "Output",
+          "conn_type": 1
+        }
+      ],
+      "size": [
+        80,
+        60
+      ],
+      "image": "NOR_cropped.gif",
+      "tooltip": {
+        "name": "NOR Gate",
+        "description": "Returns ON if neither input is ON.",
+        "image": "NOR.gif"
+      },
+      "function_name": "nor_gate"
+    },
+    {
+      "name": "XORGate",
+      "connections": [
+        {
+          "position": [
+            -40,
+            -12
+          ],
+          "name": "InputA",
+          "conn_type": 0
+        },
+        {
+          "position": [
+            -40,
+            12
+          ],
+          "name": "InputB",
+          "conn_type": 0
+        },
+        {
+          "position": [
+            40,
+            0
+          ],
+          "name": "Output",
+          "conn_type": 1
+        }
+      ],
+      "size": [
+        80,
+        60
+      ],
+      "image": "XOR_cropped.gif",
+      "tooltip": {
+        "name": "XOR Gate",
+        "description": "Returns ON if either input is ON, but not both.",
+        "image": "XOR.gif"
+      },
+      "function_name": "xor_gate"
+    },
+    {
+      "name": "NOTGate",
+      "connections": [
+        {
+          "position": [
+            -40,
+            0
+          ],
+          "name": "Input",
+          "conn_type": 0
+        },
+        {
+          "position": [
+            40,
+            0
+          ],
+          "name": "Output",
+          "conn_type": 1
+        }
+      ],
+      "size": [
+        80,
+        60
+      ],
+      "image": "NOT_cropped.gif",
+      "tooltip": {
+        "name": "NOT Gate",
+        "description": "Returns the opposite of its input.",
+        "image": "NOT.gif"
+      },
+      "function_name": "not_gate"
+    },
+    {
+      "name": "RELAYGate",
+      "connections": [
+        {
+          "position": [
+            -15,
+            0
+          ],
+          "name": "Input",
+          "conn_type": 0
+        },
+        {
+          "position": [
+            15,
+            0
+          ],
+          "name": "Output",
+          "conn_type": 1
+        }
+      ],
+      "size": [
+        30,
+        20
+      ],
+      "image": "RELAY.gif",
+      "tooltip": {
+        "name": "RELAY Gate",
+        "description": "Returns its input.",
+        "image": "RELAY.gif"
+      },
+      "function_name": "relay_gate"
+    },
+    {
+      "name": "ONGate",
+      "connections": [
+        {
+          "position": [
+            -20,
+            0
+          ],
+          "name": "Input",
+          "conn_type": 0
+        },
+        {
+          "position": [
+            20,
+            0
+          ],
+          "name": "Output",
+          "conn_type": 1
+        }
+      ],
+      "size": [
+        40,
+        40
+      ],
+      "image": "ON.gif",
+      "tooltip": {
+        "name": "ON Gate",
+        "description": "Returns a constant ON signal.",
+        "image": "ON.gif"
+      },
+      "function_name": "on_gate"
+    },
+    {
+      "name": "OFFGate",
+      "connections": [
+        {
+          "position": [
+            -20,
+            0
+          ],
+          "name": "Input",
+          "conn_type": 0
+        },
+        {
+          "position": [
+            20,
+            0
+          ],
+          "name": "Output",
+          "conn_type": 1
+        }
+      ],
+      "size": [
+        40,
+        40
+      ],
+      "image": "OFF.gif",
+      "tooltip": {
+        "name": "OFF Gate",
+        "description": "Returns a constant OFF signal.",
+        "image": "OFF.gif"
+      },
+      "function_name": "off_gate"
+    }
+  ]
+}
